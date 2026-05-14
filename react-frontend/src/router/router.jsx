@@ -1,8 +1,5 @@
-import {
-  createBrowserRouter,
-  Navigate,
-} from "react-router-dom";
-
+import { createHashRouter, Navigate }
+from "react-router-dom";
 import MainLayout
 from "../components/layout/MainLayout";
 
@@ -21,7 +18,7 @@ import Login from "../pages/Login";
 import Signup from "../pages/Signup";
 import JobDetails from "../pages/JobDetails";
 
-const router = createBrowserRouter([
+const router = createHashRouter([
 
   {
     path: "/",
