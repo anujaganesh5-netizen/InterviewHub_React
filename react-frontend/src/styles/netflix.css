@@ -1,6 +1,6 @@
 body {
   background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
-  padding-top: 120px;
+  padding-top: 100px;
   overflow-y: auto;
   height: 100vh;
   font-family: Arial, sans-serif;
@@ -18,7 +18,7 @@ body {
 
 .left-content {
   width: 32%;
-  margin-top: 80px;
+  margin-top: 0px;
   text-align: center;
   border-right: 1px solid #ddd;
   padding-right: 30px;

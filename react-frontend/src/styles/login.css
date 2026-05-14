@@ -8,8 +8,9 @@
 }
 
 .login-container {
-  height: 800px;
-  padding-top: 100px;
+  height: 100vh;
+  padding: 10px;
+ margin-top: 0px;
   display: flex;
   justify-content: center;
   align-items: center;

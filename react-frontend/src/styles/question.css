@@ -17,7 +17,7 @@ body {
 .page-heading {
   position: absolute;
   left: 560px; /* adjust spacing */
-  top: 140px; /* adjust below navbar */
+  top: 110px; /* adjust below navbar */
   color: #111;
   font-size: 28px;
   font-weight: 600;
@@ -31,7 +31,7 @@ body {
   align-items: center;
   gap: 60px;
   min-height: calc(100vh - 140px); /* adjusts below header */
-  margin-top: 100px;
+  margin-top: 60px;
 }
 
 /* Bigger cards */

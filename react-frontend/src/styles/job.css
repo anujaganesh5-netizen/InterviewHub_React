@@ -10,7 +10,8 @@ main {
 .page-heading {
   position: absolute;
   left: 560px; /* adjust spacing */
-  top: 130px; /* adjust below navbar */
+
+margin-top: 40px;
   color: #111;
   font-size: 28px;
   font-weight: 600;
@@ -26,7 +27,7 @@ main {
   padding: 20px;
   border-right: 2px solid #2e3b55;
   position: fixed;
-  margin-top: 80px;
+  
 }
 
 .sidebar ul {
@@ -61,7 +62,7 @@ aside .submit {
   padding: 30px;
   gap: 60px;
   margin-left: 300px;
-  margin-top: 150px;
+  margin-top: 80px;
   margin-bottom: 50px;
 }
 .card {
