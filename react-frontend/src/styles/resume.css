@@ -1,0 +1,163 @@
+.main-section {
+  width: 100%;
+  min-height: 100vh;
+
+  background: #eef2f7;
+
+  padding-top: 130px;
+  padding-bottom: 80px;
+
+  overflow: hidden;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* TITLE */
+
+.resume-title {
+  width: 75%;
+
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+
+  font-size: 40px;
+
+  font-weight: 700;
+
+  color:  #2e3b55;
+
+  line-height: 1.3;
+
+  margin-bottom: 70px;
+}
+
+/* SLIDER AREA */
+
+.slider-container {
+  width: 100%;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  position: relative;
+}
+
+/* SLIDER */
+
+.resume-slider {
+  width: 1180px;
+
+  display: flex;
+
+  gap: 28px;
+
+  overflow-x: hidden;
+
+  scroll-behavior: smooth;
+}
+
+/* CARD */
+
+.resume-card {
+  min-width: 280px;
+
+  background: white;
+
+  border-radius: 18px;
+
+  overflow: hidden;
+
+  flex-shrink: 0;
+
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
+
+  transition: 0.3s ease;
+}
+
+.resume-card:hover {
+  transform: translateY(-8px);
+}
+
+.resume-card img {
+  width: 100%;
+
+  height: 390px;
+
+  object-fit: cover;
+}
+
+/* BUTTON */
+
+.use-btn {
+  display: block;
+
+  margin: 16px;
+
+  text-align: center;
+
+  background: #2e3b55;
+
+  color: white;
+
+  padding: 13px;
+
+  border-radius: 10px;
+
+  text-decoration: none;
+
+  font-size: 16px;
+
+  font-weight: 600;
+
+  transition: 0.3s;
+}
+
+.use-btn:hover {
+  background: #4338ca;
+}
+
+/* ARROWS */
+
+.arrow {
+  width: 52px;
+  height: 52px;
+
+  border: none;
+
+  border-radius: 10%;
+
+  background: #2e3b55;
+
+  color: #f97316;
+
+  font-size: 32px;
+
+  cursor: pointer;
+
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.12);
+
+  position: absolute;
+
+  z-index: 10;
+
+  transition: 0.3s;
+}
+
+.arrow:hover {
+  background: #f97316;
+  color: #2e3b55;
+}
+
+.left {
+  left: 80px;
+}
+
+.right {
+  right: 80px;
+}
+
