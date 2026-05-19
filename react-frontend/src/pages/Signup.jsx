@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
-import "../styles/signup.css"
+
 import {
   createUserWithEmailAndPassword,
   updateProfile,
@@ -8,7 +8,7 @@ import {
 
 import { auth } from "../firebase";
 
-import "../styles/Signup.css";
+import "../styles/signup.css";
 
 function Signup() {
   const navigate = useNavigate();
