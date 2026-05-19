@@ -31,7 +31,7 @@ const Profile = () => {
     <div className="profile-page" style={{ backgroundColor: '#f3f4f6', minHeight: '100vh', paddingTop: '100px' }}>
       <section className="profile-card">
         <div className="cover">
-          <img src="/assets/Background_profile.png" alt="Cover" />
+          <img src={import.meta.env.BASE_URL + "assets/Background_profile.png"} alt="Cover" />
         </div>
 
         <div className="profile-info">

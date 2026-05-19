@@ -3,51 +3,51 @@ import "../styles/resume.css";
 
 const templates = [
   {
-    image: "/assets/resumes/resume1.png",
+    image: import.meta.env.BASE_URL + "assets/resumes/resume1.png",
     link: "https://www.canva.com/templates/EAEszf9W2oE/",
   },
   {
-    image: "/assets/resumes/resume2.png",
+    image: import.meta.env.BASE_URL + "assets/resumes/resume2.png",
     link: "https://www.canva.com/templates/EAFTjAA9PN4/",
   },
   {
-    image: "/assets/resumes/resume3.png",
+    image: import.meta.env.BASE_URL + "assets/resumes/resume3.png",
     link: "https://www.canva.com/templates/EAGnfxj9HIo/",
   },
   {
-    image: "/assets/resumes/resume4.png",
+    image: import.meta.env.BASE_URL + "assets/resumes/resume4.png",
     link: "https://www.canva.com/templates/EAGLUN2JBjU/",
   },
   {
-    image: "/assets/resumes/resume5.png",
+    image: import.meta.env.BASE_URL + "assets/resumes/resume5.png",
     link: "https://www.canva.com/templates/EAFiuxrnmdo/",
   },
   {
-    image: "/assets/resumes/resume6.png",
+    image: import.meta.env.BASE_URL + "assets/resumes/resume6.png",
     link: "https://www.canva.com/templates/EAFCLGUoLDY/",
   },
   {
-    image: "/assets/resumes/resume7.png",
+    image: import.meta.env.BASE_URL + "assets/resumes/resume7.png",
     link: "https://www.canva.com/templates/EAG0CLiNydQ/",
   },
   {
-    image: "/assets/resumes/resume8.png",
+    image: import.meta.env.BASE_URL + "assets/resumes/resume8.png",
     link: "https://www.canva.com/templates/EAFCMkaA7Y4/",
   },
   {
-    image: "/assets/resumes/resume9.png",
+    image: import.meta.env.BASE_URL + "assets/resumes/resume9.png",
     link: "https://www.canva.com/templates/EAGOwpsX7EM/",
   },
   {
-    image: "/assets/resumes/resume10.png",
+    image: import.meta.env.BASE_URL + "assets/resumes/resume10.png",
     link: "https://www.canva.com/templates/EAGF8CQJ168/",
   },
   {
-    image: "/assets/resumes/resume11.png",
+    image: import.meta.env.BASE_URL + "assets/resumes/resume11.png",
     link: "https://www.canva.com/templates/EAGJDSp2ZUg/",
   },
   {
-    image: "/assets/resumes/resume12.png",
+    image: import.meta.env.BASE_URL + "assets/resumes/resume12.png",
     link: "https://www.canva.com/templates/EAGYXhip3y4/",
   },
 ];

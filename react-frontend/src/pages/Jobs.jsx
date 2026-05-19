@@ -84,7 +84,7 @@ const Jobs = () => {
       <section className="content">
         <div className="card">
           <Link to="/roles/netflix">
-            <img src="/assets/Netflix.png" alt="img" />
+            <img src={import.meta.env.BASE_URL + "assets/Netflix.png"} alt="img" />
             <h4>Netflix</h4>
             <p>
               Software Engineer (L4)<br />
@@ -99,7 +99,7 @@ const Jobs = () => {
 
         <div className="card">
           <Link to="/roles/wanderlog">
-            <img src="/assets/Wandarlo.png" alt="img" />
+            <img src={import.meta.env.BASE_URL + "assets/Wandarlo.png"} alt="img" />
             <h4>Wanderlog</h4>
             <p>
               Full-Stack Software Engineer<br />
@@ -113,7 +113,7 @@ const Jobs = () => {
 
         <div className="card">
           <Link to="/roles/plaid">
-            <img src="/assets/Plaid (1).png" alt="img" />
+            <img src={import.meta.env.BASE_URL + "assets/Plaid (1).png"} alt="img" />
             <h4>Plaid</h4>
             <p>
               Software Engineer – Web<br />
@@ -127,7 +127,7 @@ const Jobs = () => {
 
         <div className="card">
           <Link to="/roles/support-and-onboarding-lead">
-            <img src="/assets/Support&Organiser Lead.png" alt="img" />
+            <img src={import.meta.env.BASE_URL + "assets/Support&Organiser Lead.png"} alt="img" />
             <h4>Support & Onboarding Lead</h4>
             <p>
               Base<br />
@@ -142,7 +142,7 @@ const Jobs = () => {
    
         <div className="card">
           <Link to="/roles/ga-recruiter">
-            <img src="/assets/G&A Recruiter.png" alt="img" />
+            <img src={import.meta.env.BASE_URL + "assets/G&A Recruiter.png"} alt="img" />
             <h4>G&A Recruiter</h4>
             <p>
               Decagon<br />
@@ -157,7 +157,7 @@ const Jobs = () => {
    
         <div className="card">
           <Link to="/roles/events-lead">
-            <img src="/assets/Events Lead.png" alt="img" />
+            <img src={import.meta.env.BASE_URL + "assets/Events Lead.png"} alt="img" />
             <h4>Events Lead</h4>
             <p>
               Substack<br />
@@ -172,7 +172,7 @@ const Jobs = () => {
       
         <div className="card">
           <Link to="/roles/executive-assistant">
-            <img src="/assets/Exective Assitor.png" alt="img" />
+            <img src={import.meta.env.BASE_URL + "assets/Exective Assitor.png"} alt="img" />
             <h4>Executive Assistant</h4>
             <p>
               Wiraa<br />
@@ -187,7 +187,7 @@ const Jobs = () => {
         {/* Research Specialist */}
         <div className="card">
           <Link to="/roles/research-specialist">
-            <img src="/assets/Research.png" alt="img" />
+            <img src={import.meta.env.BASE_URL + "assets/Research.png"} alt="img" />
             <h4>Research specialist</h4>
             <p>
               Peek (L4)<br />
@@ -202,7 +202,7 @@ const Jobs = () => {
         {/* Head of Sales */}
         <div className="card">
           <Link to="/roles/head-of-sales">
-            <img src="/assets/Head sales.png" alt="img" />
+            <img src={import.meta.env.BASE_URL + "assets/Head sales.png"} alt="img" />
             <h4>Head of Sales</h4>
             <p>
               eDerm Systems<br />
@@ -217,7 +217,7 @@ const Jobs = () => {
         {/* Video Editor */}
         <div className="card">
           <Link to="/roles/video-editor">
-            <img src="/assets/Video Editor.png" alt="img" />
+            <img src={import.meta.env.BASE_URL + "assets/Video Editor.png"} alt="img" />
             <h4>Video Editor</h4>
             <p>
               Roster<br />
@@ -232,7 +232,7 @@ const Jobs = () => {
         {/* Junior Brand Strategist */}
         <div className="card">
           <Link to="/roles/junior-brand-strategist">
-            <img src="/assets/Junior.png" alt="img" />
+            <img src={import.meta.env.BASE_URL + "assets/Junior.png"} alt="img" />
             <h4>Junior Brand Strategist</h4>
             <p>
               the Skimm<br />
@@ -247,7 +247,7 @@ const Jobs = () => {
         {/* In-House CRA */}
         <div className="card">
           <Link to="/roles/in-house-cra">
-            <img src="/assets/In house.png" alt="img" />
+            <img src={import.meta.env.BASE_URL + "assets/In house.png"} alt="img" />
             <h4>In-House CRA</h4>
             <p>
               Lensa<br />
@@ -262,7 +262,7 @@ const Jobs = () => {
         {/* Customer Care Analyst */}
         <div className="card">
           <Link to="/roles/customer-care-analyst">
-            <img src="/assets/In house.png" alt="img" />
+            <img src={import.meta.env.BASE_URL + "assets/In house.png"} alt="img" />
             <h4>Customer Care Analyst</h4>
             <p>
               Lensa<br />
@@ -277,7 +277,7 @@ const Jobs = () => {
         {/* CAD Drafter */}
         <div className="card">
           <Link to="/roles/cad-drafter">
-            <img src="/assets/CAD.png" alt="img" />
+            <img src={import.meta.env.BASE_URL + "assets/CAD.png"} alt="img" />
             <h4>CAD Drafter</h4>
             <p>
               Luster National<br />
@@ -292,7 +292,7 @@ const Jobs = () => {
         {/* UX/UI Designer */}
         <div className="card">
           <Link to="/roles/ui-designer">
-            <img src="/assets/UXUI.png" alt="img" />
+            <img src={import.meta.env.BASE_URL + "assets/UXUI.png"} alt="img" />
             <h4>UX/UI Designer</h4>
             <p>
               MLabs<br />
@@ -307,7 +307,7 @@ const Jobs = () => {
         {/* Business Analyst */}
         <div className="card">
           <Link to="/roles/business-analyst">
-            <img src="/assets/Business.png" alt="img" />
+            <img src={import.meta.env.BASE_URL + "assets/Business.png"} alt="img" />
             <h4>Business Analyst</h4>
             <p>
               Arvento A<br />

@@ -1,7 +1,7 @@
 export const jobsData = {
   "netflix": {
     company: "Netflix",
-    logo: "/assets/Netflix.png",
+    logo: import.meta.env.BASE_URL + "assets/Netflix.png",
     role: "Software Engineer (L4)",
     team: "Member, Commerce & Games Engineering",
     location: "United States",
@@ -24,7 +24,7 @@ export const jobsData = {
   },
   "wanderlog": {
     company: "Wanderlog",
-    logo: "/assets/Wandarlo.png",
+    logo: import.meta.env.BASE_URL + "assets/Wandarlo.png",
     role: "Full-Stack Software Engineer",
     team: "Engineering Team",
     location: "United States",
@@ -47,7 +47,7 @@ export const jobsData = {
   },
   "plaid": {
     company: "Plaid",
-    logo: "/assets/Plaid (1).png",
+    logo: import.meta.env.BASE_URL + "assets/Plaid (1).png",
     role: "Software Engineer – Web",
     team: "Web Engineering",
     location: "United States",
@@ -70,7 +70,7 @@ export const jobsData = {
   },
   "support-and-onboarding-lead": {
     company: "Support & Onboarding Lead",
-    logo: "/assets/Support&Organiser Lead.png",
+    logo: import.meta.env.BASE_URL + "assets/Support&Organiser Lead.png",
     role: "Support & Onboarding Lead",
     team: "Customer Success",
     location: "United States",
@@ -93,7 +93,7 @@ export const jobsData = {
   },
   "ga-recruiter": {
     company: "G&A Recruiter",
-    logo: "/assets/G&A Recruiter.png",
+    logo: import.meta.env.BASE_URL + "assets/G&A Recruiter.png",
     role: "G&A Recruiter",
     team: "Talent Acquisition",
     location: "San Francisco, CA",
@@ -116,7 +116,7 @@ export const jobsData = {
   },
   "events-lead": {
     company: "Events Lead",
-    logo: "/assets/Events Lead.png",
+    logo: import.meta.env.BASE_URL + "assets/Events Lead.png",
     role: "Events Lead",
     team: "Marketing Team",
     location: "Los Angeles, CA",
@@ -139,7 +139,7 @@ export const jobsData = {
   },
   "executive-assistant": {
     company: "Executive Assistant",
-    logo: "/assets/Exective Assitor.png",
+    logo: import.meta.env.BASE_URL + "assets/Exective Assitor.png",
     role: "Executive Assistant",
     team: "Executive Office",
     location: "United States",
@@ -162,7 +162,7 @@ export const jobsData = {
   },
   "research-specialist": {
     company: "Research Specialist",
-    logo: "/assets/Research.png",
+    logo: import.meta.env.BASE_URL + "assets/Research.png",
     role: "Research Specialist",
     team: "Product Research",
     location: "United States",
@@ -185,7 +185,7 @@ export const jobsData = {
   },
   "head-of-sales": {
     company: "Head of Sales",
-    logo: "/assets/Head sales.png",
+    logo: import.meta.env.BASE_URL + "assets/Head sales.png",
     role: "Head of Sales",
     team: "Sales Team",
     location: "Springfield, IL",
@@ -208,7 +208,7 @@ export const jobsData = {
   },
   "video-editor": {
     company: "Video Editor",
-    logo: "/assets/Video Editor.png",
+    logo: import.meta.env.BASE_URL + "assets/Video Editor.png",
     role: "Video Editor",
     team: "Content Team",
     location: "East Montpelier, VT",
@@ -231,7 +231,7 @@ export const jobsData = {
   },
   "junior-brand-strategist": {
     company: "Junior Brand Strategist",
-    logo: "/assets/Junior.png",
+    logo: import.meta.env.BASE_URL + "assets/Junior.png",
     role: "Junior Brand Strategist",
     team: "Brand Strategy Team",
     location: "New York, NY",
@@ -254,7 +254,7 @@ export const jobsData = {
   },
   "in-house-cra": {
     company: "In-House CRA",
-    logo: "/assets/In house.png",
+    logo: import.meta.env.BASE_URL + "assets/In house.png",
     role: "In-House CRA",
     team: "Clinical Operations",
     location: "United States",
@@ -277,7 +277,7 @@ export const jobsData = {
   },
   "customer-care-analyst": {
     company: "Customer Care Analyst",
-    logo: "/assets/In house.png",
+    logo: import.meta.env.BASE_URL + "assets/In house.png",
     role: "Customer Care Analyst",
     team: "Customer Care",
     location: "United States",
@@ -300,7 +300,7 @@ export const jobsData = {
   },
   "cad-drafter": {
     company: "CAD Drafter",
-    logo: "/assets/CAD.png",
+    logo: import.meta.env.BASE_URL + "assets/CAD.png",
     role: "CAD Drafter",
     team: "Engineering Team",
     location: "Denver, CO",
@@ -323,7 +323,7 @@ export const jobsData = {
   },
   "ui-designer": {
     company: "UX/UI Designer",
-    logo: "/assets/UXUI.png",
+    logo: import.meta.env.BASE_URL + "assets/UXUI.png",
     role: "UX/UI Designer",
     team: "Design Team",
     location: "United States",
@@ -346,7 +346,7 @@ export const jobsData = {
   },
   "business-analyst": {
     company: "Business Analyst",
-    logo: "/assets/Business.png",
+    logo: import.meta.env.BASE_URL + "assets/Business.png",
     role: "Business Analyst",
     team: "Business Operations",
     location: "United States",

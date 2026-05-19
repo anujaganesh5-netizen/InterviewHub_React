@@ -43,7 +43,7 @@ const Navbar = () => {
       <div className="left-section">
 
         <img
-          src="/assets/logo.jpeg"
+          src={import.meta.env.BASE_URL + "assets/logo.jpeg"}
           alt="Logo"
         />
 

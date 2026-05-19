@@ -36,7 +36,7 @@ const Home = () => {
         <h2>WELCOME TO INTERVIEWHUB</h2>
 
         <video autoPlay muted loop playsInline>
-          <source src="/assets/home_video.mp4" type="video/mp4" />
+          <source src={import.meta.env.BASE_URL + "assets/home_video.mp4"} type="video/mp4" />
         </video>
       </section>
 

@@ -65,9 +65,9 @@ const JobDetails = () => {
       <div className="next-page">
         <p>Similar Roles</p>
         {/* Placeholder for similar roles if needed, currently showing static images as in original CSS */}
-        <img src="/assets/Netflix.png" alt="similar 1" />
-        <img src="/assets/Wandarlo.png" alt="similar 2" />
-        <img src="/assets/Plaid (1).png" alt="similar 3" />
+        <img src={import.meta.env.BASE_URL + "assets/Netflix.png"} alt="similar 1" />
+        <img src={import.meta.env.BASE_URL + "assets/Wandarlo.png"} alt="similar 2" />
+        <img src={import.meta.env.BASE_URL + "assets/Plaid (1).png"} alt="similar 3" />
       </div>
     </div>
   );
